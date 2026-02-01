@@ -18,9 +18,9 @@ prj_pose/
 ├── v3_async/run.py          # 비동기 추론
 ├── v4_tensorrt/             # TensorRT
 │   ├── run.py               # 스레드 웹캠 + 비동기 추론 + TRT
-│   ├── run_base.py          # 기본 + TRT (예정)
-│   ├── run_thread.py        # 스레드 웹캠 + TRT (예정)
-│   ├── run_async.py         # 비동기 추론 + TRT (예정)
+│   ├── run_base.py          # 기본 + TRT
+│   ├── run_thread.py        # 스레드 웹캠 + TRT
+│   ├── run_async.py         # 비동기 추론 + TRT
 │   └── export.py            # .pt → .engine 변환
 └── 메모.md
 ```
